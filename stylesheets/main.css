@@ -1,0 +1,71 @@
+body {
+	font-family: 'Josefin Slab', serif;
+}
+h3 {
+	text-align: center;
+}
+
+#intro h1 {
+	border-bottom: 2px solid #eee;
+	margin: 0;
+	padding: 0;
+}
+
+.divider {
+	border-bottom: 2px solid #eee;
+	margin-top: 20px;
+}
+
+.description {
+	text-align: center;	
+}
+
+.title {
+	font-size: 35px;
+	text-align: center;
+	height: 20%;
+	-webkit-transform: translateY(30%);
+}
+
+.worldMap {
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+
+.axis path { 
+	fill: none; stroke: black; 
+}
+
+.axis line { 
+	stroke: black; 
+}
+
+.axis text { 
+	font-size: 10pt; 
+}
+
+path.outline { 
+	fill: none; stroke-width: 1;
+}
+
+path.plot { 
+	fill: none; stroke-width: 3; 
+}
+
+.linePlotClass {
+	position: relative;
+	left: 50%;
+	-webkit-transform : translateX(-50%);
+}
+
+#map{
+	left: 50%;
+	position: relative;
+	-webkit-transform: translateX(-50%);
+}
+#us-map {
+	left: 50%;
+	position: relative;
+	-webkit-transform: translateX(-40%);
+}

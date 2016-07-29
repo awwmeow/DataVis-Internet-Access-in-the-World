@@ -1,0 +1,60 @@
+<!-- INFO 5100 - PROJECT 1
+	 Internet Access Around the World
+	 Team : Yufeng Wang (yw756), Ryan Enderby (rae83), Radhika Bhanu (rk539)
+-->
+<html>
+	<head>
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<script src="http://d3js.org/topojson.v1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="stylesheets/main.css"></link>
+		<link href='https://fonts.googleapis.com/css?family=Josefin+Slab:400,600' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+		<div id="intro">
+			<h1>Internet access around the world</h1>
+			<p>We tend to take Internet access for granted.</p>
+			<p>However, there exist great differences in access and usage rates around the world.</p>
+			<p>Here, we explore the landscape of worldwide Internet penetration,</p>
+			<p>as well as several factors (GDP, mobile phone subscriptions) that help tell the story of worldwide adoption and access.</p>
+			<div class="divider"></div>
+		</div>
+
+		<h3>Internet penetration per 100 people by country - 2014</h3>
+		<div id="map">
+		</div>
+		<div class="description">Data from <a href="http://knoema.com/WBINU2015/internet-users-1960-2014?regionId=World" target="_blank">Knoema</a> for choropleth above and Internet line plot below. You can also check out our visualization on <a href="https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users" target="_blank">Wikipedia</a> :)</div>
+
+		<div class="divider"></div>
+
+		<h3>Internet Penetration per 100 people - 1990 to 2014</h3>
+		<div id="internetLinePlot">
+		</div>
+
+		<div class="divider"></div>
+
+		<h3> Mobile Cellular Subscriptions per 100 people - 1990 to 2014</h3>
+		<div id="mobileLinePlot">
+		</div>
+		<div class="description">Data for cellular plot and GDP plot from <a href="http://data.worldbank.org/indicator/NY.GDP.PCAP.CD" target="_blank">the World Bank</a>.</div>
+
+		<div class="divider"></div>
+
+		<h3> GDP per Capita in USD - 1990 to 2014</h3>
+		<div id="gdpPlot">
+		</div>
+
+		<div class="divider"></div>
+
+<!-- 		<h3> INTERNET USAGE STATISTICS UNITED STATES - State by State</h3>
+		<div id="us-map"></div>
+
+		<div class="divider"></div> -->
+
+		<!-- All scripts at end of body -->
+		<script type="text/javascript" src="javascripts/worldMap.js"></script>
+		<script type="text/javascript" src="javascripts/linePlot.js"></script>
+	    <script type="text/javascript" src="javascripts/mobileLinePlot.js"></script>
+	    <script type="text/javascript" src="javascripts/gdpLinePlot.js"></script>
+	</body>
+</html>
